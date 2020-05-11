@@ -26,15 +26,15 @@
     src: url("../fonts/KGSecondChancesSolid.ttf") format("truetype");
 }
 
-.kimgarrard {
-  font-family: "SketchOpen";
-  font-size: 4em;
-  position: absolute;
+#realcontent {
+  position: fixed;
+  width: 500vw;
+  height: 100vh;
+  display: flex;
 }
 
-section > div > img:nth-of-type(2) {
-    position: absolute;
-    width: 75%;
+#fakecontent {
+  height: 300vw;
 }
 
 body,
@@ -70,8 +70,14 @@ nav a {
     color: black;
 }
 
-.slider {
-  padding-top: 30vh;
+.test {
+  width: 100vw;
+  background-color: pink;
+  height: 100vh;
+}
+
+.mijnwerk {
+  padding-top: 20vh;
   display: flex;
   /* overflow-x: auto; */
   flex-wrap: nowrap;
@@ -79,7 +85,7 @@ nav a {
   height: 100vh;
 }
 
-.slider article {
+.mijnwerk article {
   width: 35vw;
   border: 1em solid white;
   flex-shrink: 0;
@@ -108,11 +114,11 @@ nav a {
   object-fit: cover !important;
 }
 
-.slider a {
+.mijnwerk a {
   text-decoration: none;
 }
 
-.slider h2 {
+.mijnwerk h2 {
   font-family: FuturaCM;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -121,40 +127,8 @@ nav a {
   margin: 0;
 }
 
-.slider p {
+.mijnwerk p {
   margin: 0;
   font-family: SofiaRegular;
   color: grey;
-}
-
-.blue {
-  width: 100vw;
-  height: 100vh;
-  background-color: lightblue;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#realcontent {
-  position: fixed;
-  width: 500vw;
-  height: 100vh;
-}
-
-#fakecontent {
-  height: 300vw;
 }
