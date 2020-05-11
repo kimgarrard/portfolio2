@@ -73,7 +73,7 @@ nav a {
 .slider {
   padding-top: 30vh;
   display: flex;
-  overflow-x: auto;
+  /* overflow-x: auto; */
   flex-wrap: nowrap;
   justify-content: flex-start;
   height: 100vh;
@@ -83,7 +83,6 @@ nav a {
   width: 35vw;
   border: 1em solid white;
   flex-shrink: 0;
-  background-color: pink;
 }
 
 .imgbox {
@@ -126,4 +125,30 @@ nav a {
   margin: 0;
   font-family: SofiaRegular;
   color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#realcontent {
+  position: fixed;
+  width: 500vw;
+  height: 100vh;
+}
+
+#fakecontent {
+  height: 300vw;
 }
