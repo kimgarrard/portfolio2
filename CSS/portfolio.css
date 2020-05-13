@@ -115,11 +115,13 @@ h1 {
   /* overflow-x: auto; */
   flex-wrap: nowrap;
   justify-content: flex-start;
+  align-items: center;
   height: 100vh;
 }
 
 .mijnwerk article {
   width: 35vw;
+  height: 80vh;
   border: 1em solid white;
   flex-shrink: 0;
 }
@@ -148,13 +150,17 @@ h1 {
 }
 
 .mijnwerk a {
+  text-align: center;
   text-decoration: none;
 }
 
 .mijnwerk h2 {
+  letter-spacing: 0.1em;
   color: black;
-  font-size: 2em;
+  font-family: Avenir;
+  font-size: 1.6em;
   margin: 0;
+  padding-top: 2vh;
 }
 
 .mijnwerk p {
