@@ -161,6 +161,12 @@ h1 {
   font-size: 1.6em;
   margin: 0;
   padding-top: 2vh;
+  transition: 0.3s;
+}
+
+.hovertitle {
+  letter-spacing: 0.3em !important;
+  transform: 2s ease !important;
 }
 
 .mijnwerk p {

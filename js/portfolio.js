@@ -22,6 +22,8 @@ var img6 = document.querySelector(".img6hover");
 var img7 = document.querySelector(".img7hover");
 var img8 = document.querySelector(".img8hover");
 
+var hovertitle1 = document.querySelector(".mijnwerk h2:nth-of-type(0)")
+
 
 hover0.addEventListener('mouseover', function() {
   img0.src = "images/dinnerb.png";
