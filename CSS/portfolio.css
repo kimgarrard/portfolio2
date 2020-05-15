@@ -251,6 +251,10 @@ h1 {
   margin-top: 12vh;
 }
 
+.maindetail > div:last-of-type{
+  margin-bottom: 20vh;
+}
+
 .maindetail > div article p {
   margin-top: 2vh;
 }
@@ -336,7 +340,7 @@ h1 {
 }
 
 .videodiv {
-  height: 46vh !important; 
+  height: 46vh !important;
 }
 
 
