@@ -242,7 +242,11 @@ h1 {
   padding-right: 15vw;
   margin-top: 50vh;
   height: 150vh;
-  padding-top: 30vh;
+  padding-top: 20vh;
+}
+
+.maindetail > div {
+  margin-top: 12vh;
 }
 
 .projectinfo {
@@ -305,7 +309,6 @@ h3 {
 .stijl {
   display: flex;
   justify-content: space-between;
-  margin-top: 15vh;
 }
 
 .stijl div:nth-of-type(1) {
@@ -326,6 +329,18 @@ h3 {
 
 .stijl article p {
   margin-top: 2vh;
+}
+
+.imgrow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+
+.imgrow .imgdiv {
+  width: 32%;
+  border: 0.5em solid white;
+  height: 30vh;
 }
 
 
