@@ -379,6 +379,21 @@ h1 {
   width: 60% !important;
 }
 
+#art .firstfotodiv {
+  background: url(../images/artb.png) no-repeat center center;
+  height: 75vh;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  z-index: -2;
+  background-size: cover;
+}
+/* 
+#art .imgrow .imgdiv {
+  height: 35vh;
+  width: 23.5%;
+} */
+
 
 
 
