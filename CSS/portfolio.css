@@ -46,6 +46,23 @@ a {
   color: #8ec8b4;
 }
 
+.imgdiv {
+	overflow: hidden;
+  object-fit: cover;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+  border: 1em solid white;
+  transition: transform 500ms ease;
+}
+
+.imgdiv img {
+		width: 100%;
+		transition: transform 500ms ease;
+}
+
+.imgdiv img:hover {
+  transform: scale(1.1);
+}
+
 #realcontent {
   position: fixed;
   width: 500vw;
