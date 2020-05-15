@@ -379,6 +379,12 @@ h1 {
   width: 60% !important;
 }
 
+#art .maindetail {
+  margin-top: 48vh;
+  padding-top: 20vh;
+  height: auto;
+}
+
 #art .firstfotodiv {
   background: url(../images/artb.png) no-repeat center center;
   height: 75vh;
@@ -388,11 +394,10 @@ h1 {
   z-index: -2;
   background-size: cover;
 }
-/* 
+
 #art .imgrow .imgdiv {
-  height: 35vh;
-  width: 23.5%;
-} */
+  height: 42vh;
+}
 
 
 
