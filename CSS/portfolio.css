@@ -399,6 +399,16 @@ h1 {
   height: 42vh;
 }
 
+#etnischprofileren .firstfotodiv {
+  background: url(../images/etnischprofilerenc.png) no-repeat center 40%;
+  height: 75vh;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  z-index: -2;
+  background-size: cover;
+}
+
 
 
 
