@@ -136,7 +136,6 @@ h1 {
 }
 
 .mijnwerk {
-  padding-top: 20vh;
   display: flex;
   /* overflow-x: auto; */
   flex-wrap: nowrap;
@@ -151,23 +150,16 @@ h1 {
 
 .mijnwerk article {
   width: 35vw;
-  height: 80vh;
+  height: 70vh;
   border: 1em solid white;
   flex-shrink: 0;
-  /* background-image: -webkit-linear-gradient(95deg, pink 86%, rgba(0, 0, 0, 0) 0%);
-  position: r
-  z-index: 2; */
 }
-
-/* .mijnwerk article:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-} */
 
 .imgbox {
   background-image: url(../images/BackgroundCanvas.png);
   background-size: 120%;
   background-color: #cccccc;
-  height: 75%;
+  height: 100%;
 }
 
 .imgbox > a {
@@ -415,10 +407,6 @@ h3 {
 
   .mijnwerk article {
       width: 85vw;
-  }
-
-  .mijnwerk h2 {
-    font-size: 2em;
   }
 
 }
