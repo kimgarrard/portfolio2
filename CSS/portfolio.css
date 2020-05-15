@@ -54,9 +54,11 @@ a {
   transition: transform 500ms ease;
 }
 
-.imgdiv img {
-		width: 100%;
-		transition: transform 500ms ease;
+.imgdiv img, .imgdiv video {
+	width: 100%;
+  height: 100%;
+  object-fit: cover;
+	transition: transform 500ms ease;
 }
 
 .imgdiv img:hover {
@@ -249,6 +251,10 @@ h1 {
   margin-top: 12vh;
 }
 
+.maindetail > div article p {
+  margin-top: 2vh;
+}
+
 .projectinfo {
   margin-top: 2vh;
   display: flex;
@@ -259,16 +265,6 @@ h1 {
   font-size: 1.1em;
   font-weight: bold;
   color: #8ec8b4;
-}
-
-h3 {
-  position: absolute;
-  font-size: 6em;
-  margin-top: -4vh;
-  margin-left: -4vw;
-  z-index: -1;
-  -webkit-text-stroke: 0.5px #8ec8b4;
-  -webkit-text-fill-color: white;
 }
 
 .introdiv {
@@ -306,29 +302,25 @@ h3 {
   background-color: #aee3d1;
 }
 
-.stijl {
+.imgandtext {
   display: flex;
   justify-content: space-between;
 }
 
-.stijl div:nth-of-type(1) {
+.imgandtext div:nth-of-type(1) {
   width: 50%;
   height: 50vh;
-  background-color: pink;
+  /* background-color: black; */
 }
 
-.stijl img {
+.imgandtext img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.stijl article {
+.imgandtext article {
   width: 40%;
-}
-
-.stijl article p {
-  margin-top: 2vh;
 }
 
 .imgrow {
@@ -341,6 +333,10 @@ h3 {
   width: 32%;
   border: 0.5em solid white;
   height: 30vh;
+}
+
+.videodiv {
+  height: 46vh !important; 
 }
 
 
