@@ -409,6 +409,15 @@ h1 {
   background-size: cover;
 }
 
+.imgrowetnisch .imgdiv {
+  height: 30vh;
+  background-color: #191919;
+}
+
+.imgrowetnisch .imgdiv img {
+  object-fit: contain;
+}
+
 
 
 
