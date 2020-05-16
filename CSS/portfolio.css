@@ -439,6 +439,10 @@ h1 {
   background-size: cover;
 }
 
+.imgrowschoenen div {
+  height: 35vh !important;
+}
+
 
 
 
