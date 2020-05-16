@@ -227,7 +227,6 @@ h1 {
   padding-left: 15vw;
   padding-right: 15vw;
   margin-top: 28vh;
-  /* height: 150vh; */
   padding-top: 40vh;
 }
 
@@ -302,7 +301,6 @@ h1 {
 .imgandtext div:nth-of-type(1) {
   width: 50%;
   height: 50vh;
-  /* background-color: black; */
 }
 
 .imgandtext img {
@@ -329,6 +327,12 @@ h1 {
 
 .videodiv {
   height: 46vh !important;
+}
+
+#dinner .maindetail {
+  margin-top: 26vh;
+  padding-top: 40vh;
+  height: auto;
 }
 
 #dinner .firstfotodiv {
@@ -429,6 +433,12 @@ h1 {
   height: 70vh !important;
 }
 
+#schoenen .maindetail {
+  margin-top: 7vh;
+  padding-top: 60vh;
+  height: auto;
+}
+
 #schoenen .firstfotodiv {
   background: url(../images/schoenenb.png) no-repeat center 70%;
   height: 75vh;
@@ -449,12 +459,17 @@ h1 {
   border: 0.5em solid white !important;
 }
 
-/* .imgdivschoenen1 {
-  margin-right: 1.5vw;
-} */
-
 .articleschoenen {
   width: 25vw !important;
+}
+
+.imgandtextschoenen div:nth-of-type(1) {
+  width: 60%;
+  height: 50vh;
+}
+
+.imgandtext article {
+  width: 30%;
 }
 
 
