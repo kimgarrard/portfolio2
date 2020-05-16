@@ -501,6 +501,22 @@ h1 {
   width: 30% !important;
 }
 
+#extra .maindetail {
+  margin-top: 50vh;
+  padding-top: 20vh;
+  height: auto;
+}
+
+#extra .firstfotodiv {
+  background: url(../images/extrab.png) no-repeat center 40%;
+  height: 75vh;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  z-index: -2;
+  background-size: cover;
+}
+
 
 
 
