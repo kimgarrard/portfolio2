@@ -73,7 +73,7 @@ a {
 }
 
 #fakecontent {
-  height: 300vw;
+  height: 340vw;
 }
 
 body,
@@ -509,6 +509,22 @@ h1 {
 
 #extra .firstfotodiv {
   background: url(../images/extrab.png) no-repeat center 40%;
+  height: 75vh;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  z-index: -2;
+  background-size: cover;
+}
+
+#orca .maindetail {
+  margin-top: 49vh;
+  padding-top: 20vh;
+  height: auto;
+}
+
+#orca .firstfotodiv {
+  background: url(../images/orcab.png) no-repeat center center;
   height: 75vh;
   width: 100vw;
   overflow: hidden;

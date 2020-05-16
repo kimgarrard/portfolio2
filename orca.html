@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio Kim Garrard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/portfolio.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" class="logo"></a>
+        <div>
+          <a href="">Portfolio</a>
+          <a href="">Over mij</a>
+          <a href="">Contact</a>
+      </div>
+    </nav>
+
+    <main id="orca">
+
+      <div class="firstfotodiv">
+      </div>
+
+      <div class="maindetail">
+
+      <div class="introdiv">
+
+        <article class="">
+          <h2>Css poster</h2>
+          <div class="projectinfo">
+
+            <div class="">
+              <p>Jaar</p>
+              <p>2019</p>
+            </div>
+
+            <div class="">
+              <p>Rol</p>
+              <p>Html / css</p>
+            </div>
+
+          </div>
+        </article>
+
+        <article class="">
+          <p>Na een poster van orca's te hebben uitgezocht heb ik deze helemaal nagemaakt met puur css, zonder svg's. Ook zit er interactie in, wanneer
+          je op de orca's klikt springen deze in het water.  </p>
+          <a class="button" href=" https://kimgarrard.github.io/orca/" target="_blank">Bekijk website</a>
+        </article>
+
+      </div>
+
+
+      <div class="">
+
+        <article class="">
+          <h2>Het resultaat</h2>
+          <p>Bij de zero state zie je het water en de staart van de orca's bewegen, wanneer je op de orca's klikt springen ze
+            in een boogje het water in. Het was een behoorlijk uitdaging om dit allemaal met css te maken,
+          maar ik vond het wel heel leuk om te doen.</p>
+        </article>
+
+        <div class="imgdiv">
+          <video src="images/orca_website.mov" autoplay muted loop poster=""></video>
+        </div>
+
+      </div>
+
+
+      </div>
+
+    </main>
+
+
+    <!-- <script src="js/portfolio.js"></script> -->
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script>
+
+    // https://stackoverflow.com/questions/34831602/increase-element-opacity-when-user-scrolls-down-the-page
+    $(window).scroll(function() {
+    var scrollTop = $(this).scrollTop();
+
+        $('.firstfotodiv').css({
+          opacity: function() {
+              var elementHeight = $(this).height(),
+              opacity = ((elementHeight - scrollTop) / elementHeight);
+              return opacity;
+          }
+        });
+    });
+
+    </script>
+
+</body>
+
+</html>
