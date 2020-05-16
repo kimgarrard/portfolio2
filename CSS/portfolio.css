@@ -468,8 +468,24 @@ h1 {
   height: 50vh;
 }
 
-.imgandtext article {
+.imgandtextschoenen article {
   width: 30%;
+}
+
+#wittewebsite .maindetail {
+  margin-top: 24vh;
+  padding-top: 46vh;
+  height: auto;
+}
+
+#wittewebsite .firstfotodiv {
+  background: url(../images/wittewebsitec.jpg) no-repeat center 60%;
+  height: 75vh;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  z-index: -2;
+  background-size: cover;
 }
 
 
