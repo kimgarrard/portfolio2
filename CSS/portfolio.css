@@ -533,6 +533,22 @@ h1 {
   background-size: cover;
 }
 
+#nemo .maindetail {
+  margin-top: 49vh;
+  padding-top: 20vh;
+  height: auto;
+}
+
+#nemo .firstfotodiv {
+  background: url(../images/nemob.png) no-repeat center 25%;
+  height: 75vh;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  z-index: -2;
+  background-size: cover;
+}
+
 
 
 

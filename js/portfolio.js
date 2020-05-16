@@ -103,6 +103,17 @@ hover6.addEventListener('mouseout', function() {
 });
 
 
+hover7.addEventListener('mouseover', function() {
+  img7.src = "images/nemob.png";
+  img7.classList.add("hoverimg");
+});
+
+hover7.addEventListener('mouseout', function() {
+  img7.src = "images/nemo.png";
+  img7.classList.remove("hoverimg");
+});
+
+
 hover8.addEventListener('mouseover', function() {
   img8.src = "images/orcab.png";
   img8.classList.add("hoverimg");
