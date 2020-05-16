@@ -429,6 +429,16 @@ h1 {
   height: 70vh !important;
 }
 
+#schoenen .firstfotodiv {
+  background: url(../images/schoenenb.png) no-repeat center 70%;
+  height: 75vh;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  z-index: -2;
+  background-size: cover;
+}
+
 
 
 
