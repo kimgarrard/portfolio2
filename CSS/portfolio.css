@@ -443,6 +443,20 @@ h1 {
   height: 35vh !important;
 }
 
+.imgdivschoenen {
+  width: 30% !important;
+  height: 25vh !important;
+  border: 0.5em solid white !important;
+}
+
+/* .imgdivschoenen1 {
+  margin-right: 1.5vw;
+} */
+
+.articleschoenen {
+  width: 25vw !important;
+}
+
 
 
 
