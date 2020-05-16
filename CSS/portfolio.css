@@ -488,6 +488,19 @@ h1 {
   background-size: cover;
 }
 
+.imgrowww div {
+  height: 26vh !important;
+}
+
+.videodivww {
+  width: 60% !important;
+  height: 48vh !important;
+}
+
+.imgandtextww article {
+  width: 30% !important;
+}
+
 
 
 
