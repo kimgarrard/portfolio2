@@ -865,6 +865,160 @@ h1 {
 
 }
 
+
+
+/* mobile */
+@media (min-width: 47em) and (max-width: 79em) {
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  #realcontent {
+    height: auto;
+    width: 100vw !important;
+    position: relative;
+    /* display: block; */
+  }
+
+  .background > div {
+    width: 90vw;
+    top: 10vh;
+    left: 5vw;
+  }
+
+  .background > div div {
+    width: 60%;
+    margin-top: 1vh;
+  }
+
+  h1 {
+    position: absolute;
+    font-size: 3em;
+    text-align: center;
+    top: 107vh;
+    width: 100vw;
+    transform: rotate(0deg);
+  }
+
+  .mijnwerk {
+    overflow-x: auto;
+    padding-top: 7vh;
+  }
+
+  .mijnwerk h1 {
+    top: 3vh;
+  }
+
+  .mijnwerk h2 {
+    padding-top: 3vh;
+  }
+
+  .test, .kim {
+    width: 100vw;
+  }
+
+  .imgbox a img {
+    display: none;
+  }
+
+  #fakecontent {
+    display: none !important;
+  }
+
+  .mijnwerk article {
+      width: 85vw;
+  }
+
+  .maindetail {
+    background-image: none;
+    background-color: white;
+    margin-top: 75vh !important;
+    padding-top: 0 !important;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .introdiv {
+    display: block;
+  }
+
+  .maindetail div {
+    width: 100% !important;
+  }
+
+  .imgandtext {
+    display: block !important;
+  }
+
+  .imgandtext article {
+    margin-top: 5vh;
+    width: 100% !important;
+  }
+
+  .imgrow {
+    display: block !important;
+  }
+
+  .introdiv {
+    margin-top: 5vh !important;
+  }
+
+  .introdiv article:nth-of-type(2) {
+    margin-top: 5vh;
+  }
+
+  .videodiv {
+    border: 0.5em solid white;
+    height: 34vh !important;
+  }
+
+  .imgrowenjoin {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+
+  .imgrowenjoin div {
+    width: 50% !important;
+  }
+
+  #enjoin .imgandtext .imgrow {
+    width: 100%;
+  }
+
+  #enjoin .imgrow .imgdiv {
+    height: 43vh;
+  }
+
+  .imgdivww {
+    height: 40vh !important;
+  }
+
+  .imgrowww div {
+    height: 29vh !important;
+  }
+
+  .videodivww {
+    height: 29vh !important;
+  }
+
+  .imgrownemo {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+
+  .imgrownemo div {
+    width: 50% !important;
+  }
+
+
+}
+
 @media (min-width: 79em)  {
   #realcontent {
     position: fixed;
