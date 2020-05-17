@@ -7,8 +7,6 @@
 }
 
 @import url(//db.onlinewebfonts.com/c/331ec49c0d78e469c42c1d814dd45838?family=Avenir+Book);
-@import url(//db.onlinewebfonts.com/c/275de2221d9f0c4c9257d17f5a1e4006?family=Avenir+Black);
-@import url(//db.onlinewebfonts.com/c/2090551770be22b09600a40b0b4673b7?family=Avenir+Medium);
 @import url(//db.onlinewebfonts.com/c/901497541657a2f24e42848bcf7fad52?family=Avenir+Heavy);
 
 @font-face {
@@ -152,7 +150,7 @@ h1 {
   font-size: 7em;
   display: inline-block;
   letter-spacing: 0.1em;
-  margin-top: 2vh;
+  margin-top: 4vh;
   font-family: "Avenir heavy", Helvetica;
   color: #8ec8b4;
 }
@@ -737,6 +735,7 @@ h1 {
   }
 
   h1 {
+    z-index: 2;
     position: absolute;
     font-size: 3em;
     text-align: center;
