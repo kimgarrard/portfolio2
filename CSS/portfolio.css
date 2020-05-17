@@ -118,7 +118,8 @@ nav {
 } */
 
 .logo {
-    width: 6em;
+    width: 8em;
+    mix-blend-mode: darken;
     /* position: absolute; */
     /* margin: 0.5em; */
 }
