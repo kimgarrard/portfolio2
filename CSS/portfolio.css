@@ -637,7 +637,7 @@ nav a {
 }
 
 #extra .firstfotodiv {
-  background: url(../images/extrab.png) no-repeat center 40%;
+  background: url(../images/extrab.jpg) no-repeat center 40%;
   height: 75vh;
   width: 100vw;
   overflow: hidden;
@@ -764,7 +764,7 @@ nav a {
   }
 
   .mijnwerk article:nth-of-type(7) > div {
-    background: url(../images/extrab.png) no-repeat center center;
+    background: url(../images/extrab.jpg) no-repeat center center;
     background-size: cover;
   }
 
