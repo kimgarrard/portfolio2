@@ -135,7 +135,7 @@ nav a {
   align-items: center;
 }
 
-h1 {
+/* h1 {
   z-index: -2;
   margin-left: -1.9vw !important;
   font-size: 13vh;
@@ -145,7 +145,7 @@ h1 {
   letter-spacing: 0.1em;
   font-family: "Avenir heavy", Helvetica;
   color: #8ec8b4;
-}
+} */
 
 .test {
   width: 70vw;
@@ -696,6 +696,23 @@ h1 {
 /* images mobile ipad */
 @media (min-width: 20em) and (max-width: 79em) {
 
+  .portfoliodiv {
+    position: absolute;
+    width: 100vw;
+  }
+
+  h1 {
+    z-index: -2;
+    /* margin-left: -1.9vw !important; */
+    font-size: 13vh;
+    /* writing-mode: vertical-rl; */
+    margin: 0;
+    /* transform: scaleX(-1) scaleY(-1); */
+    letter-spacing: 0.1em;
+    font-family: "Avenir heavy", Helvetica;
+    color: #8ec8b4;
+  }
+
   .mijnwerk article:nth-of-type(1) > div {
     background: url(../images/dinnerb.png) no-repeat center center;
     background-size: cover;
@@ -784,7 +801,7 @@ h1 {
     position: absolute;
     font-size: 3em;
     text-align: center;
-    top: 107vh;
+    top: 109vh;
     width: 100vw;
     transform: rotate(0deg);
   }
@@ -916,7 +933,7 @@ h1 {
 
 
 
-/* mobile */
+/* tablet */
 @media (min-width: 47em) and (max-width: 79em) {
 
   html {
@@ -948,7 +965,7 @@ h1 {
 
   h1 {
     position: absolute;
-    font-size: 3em;
+    font-size: 5em;
     text-align: center;
     top: 107vh;
     width: 100vw;
@@ -1111,6 +1128,18 @@ h1 {
 
   #fakecontent {
     height: 340vw;
+  }
+
+  h1 {
+    z-index: -2;
+    margin-left: -1.9vw !important;
+    font-size: 13vh;
+    writing-mode: vertical-rl;
+    margin: 0;
+    transform: scaleX(-1) scaleY(-1);
+    letter-spacing: 0.1em;
+    font-family: "Avenir heavy", Helvetica;
+    color: #8ec8b4;
   }
 
   .mijnwerk section {
