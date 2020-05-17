@@ -6,6 +6,11 @@
     opacity: 0;
 }
 
+@import url(//db.onlinewebfonts.com/c/331ec49c0d78e469c42c1d814dd45838?family=Avenir+Book);
+@import url(//db.onlinewebfonts.com/c/275de2221d9f0c4c9257d17f5a1e4006?family=Avenir+Black);
+@import url(//db.onlinewebfonts.com/c/2090551770be22b09600a40b0b4673b7?family=Avenir+Medium);
+@import url(//db.onlinewebfonts.com/c/901497541657a2f24e42848bcf7fad52?family=Avenir+Heavy);
+
 @font-face {
     font-family: 'DayPosterBlackNF';
     src:  url('styles/DayPosterBlackNF.ttf') format('truetype');
@@ -31,20 +36,10 @@
     src: url("../fonts/KGSecondChancesSolid.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: "Avenir";
-    src: url("../fonts/avenir.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "Avenirblack";
-    src: url("../fonts/avenirbold.otf") format("opentype");
-}
-
 h1, h2 {
   letter-spacing: 0.1em;
   color: black;
-  font-family: "Avenir", Helvetica;
+  font-family: "Avenir heavy", Helvetica;
   font-size: 1.6em;
   margin: 0;
   text-transform: uppercase;
@@ -158,7 +153,7 @@ h1 {
   display: inline-block;
   letter-spacing: 0.1em;
   margin-top: 2vh;
-  font-family: "Avenirblack", Helvetica;
+  font-family: "Avenir heavy", Helvetica;
   color: #8ec8b4;
 }
 
@@ -271,7 +266,7 @@ h1 {
 .mijnwerk h2 {
   letter-spacing: 0.1em;
   color: black;
-  font-family: "Avenir", Helvetica;
+  font-family: "Avenir medium", Helvetica;
   font-size: 1.6em;
   margin: 0;
   padding-top: 4vh;
