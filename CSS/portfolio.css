@@ -1127,6 +1127,12 @@ nav a {
     height: 20vh !important;
   }
 
+  .mijnwerk article {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 100vw;
+  }
+
   .overmij {
     width: 100vw;
   }
