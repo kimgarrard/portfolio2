@@ -772,13 +772,14 @@ h1 {
       width: 85vw;
   }
 
-  /* .mijnwerk section {
-    position: relative;
+  .maindetail {
+    background-image: none;
+    background-color: white;
+    margin-top: 75vh !important;
+    padding-top: 0 !important;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
-
-  .imgdiv {
-    overflow: auto;
-  } */
 
 }
 
