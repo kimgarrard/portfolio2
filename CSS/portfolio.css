@@ -781,6 +781,41 @@ h1 {
     padding-right: 5vw;
   }
 
+  .introdiv {
+    display: block;
+  }
+
+  article {
+    width: 100% !important;
+  }
+
+  div {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .imgdiv {
+    border: 0.5em solid white;
+  }
+
+  .imgandtext article {
+    margin-top: 5vh;
+  }
+
+  .imgrow {
+    display: block !important;
+  }
+
+  .introdiv article:nth-of-type(2) {
+    margin-top: 5vh;
+  }
+
+  .videodiv {
+    border: 0.5em solid white;
+    height: 34vh !important;
+  }
+
+
 }
 
 @media (min-width: 79em)  {
