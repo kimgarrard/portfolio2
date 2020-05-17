@@ -994,7 +994,7 @@ h1 {
   }
 
   .imgrowww div {
-    height: 29vh !important;
+    height: 13vh !important;
   }
 
   .videodivww {
@@ -1044,6 +1044,10 @@ h1 {
   .imgandtextschoenen .videodiv {
     height: 30vh !important;
   }
+
+  .imgrowshow .imgdiv {
+    height: 20vh !important;
+}
 
 
 }
