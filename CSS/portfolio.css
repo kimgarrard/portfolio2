@@ -170,17 +170,18 @@ h1 {
 .background > div {
   width: 40vw;
   position: absolute;
-  top: 10vh;
+  top: 11vh;
   left: 5vw;
 }
 
 .background > div div {
   width: 20vw;
-  margin-top: 5vh;
+  margin-top: 2vh;
 }
 
 .background > div div p {
   margin-bottom: 4vh;
+  color: #696969;
 }
 
 .background a {
@@ -192,6 +193,9 @@ h1 {
 }
 
 .background h2 {
+  color: white;
+  letter-spacing: normal;
+  text-transform: none;
   top: 20vh;
   font-size: 3em;
 }
