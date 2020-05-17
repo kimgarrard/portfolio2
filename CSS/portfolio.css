@@ -944,25 +944,19 @@ h1 {
     padding-right: 5vw;
   }
 
-  .introdiv {
-    display: block;
-  }
-
-  .maindetail div {
+  .imgandtextfullscreen div {
+    margin-top: 4vh;
     width: 100% !important;
+    height: 44vh !important;
   }
 
-  .imgandtext {
+  .imgandtextfullscreen {
     display: block !important;
   }
 
-  .imgandtext article {
+  .imgandtextfullscreen article {
     margin-top: 5vh;
     width: 100% !important;
-  }
-
-  .imgrow {
-    display: block !important;
   }
 
   .introdiv {
