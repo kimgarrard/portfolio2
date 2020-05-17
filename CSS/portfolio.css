@@ -405,16 +405,21 @@ nav a {
 
 .button {
   background-color: #8ec8b4;
-  padding: 1em;
-  border-radius: 0.5em;
+  padding: 1em 1.5em;
+  background-color: white;
+  color: #8ec8b4;
   text-decoration: none;
-  color: black;
   font-family: "Avenir", Helvetica;
-  transform: 0.5s ease;
+  text-transform: uppercase;
+  border: 0.2em solid #8ec8b4;
+  transition: all 0.4s ease 0s;
 }
 
 .button:hover {
-  background-color: #aee3d1;
+  color: #ffffff !important;
+  background: #8ec8b4;
+  border-color: #8ec8b4 !important;
+  transition: all 0.4s ease 0s;
 }
 
 .imgandtext {
