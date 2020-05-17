@@ -852,6 +852,15 @@ h1 {
     height: 29vh !important;
   }
 
+  .imgrownemo {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+
+  .imgrownemo div {
+    width: 50% !important;
+  }
+
 
 }
 
