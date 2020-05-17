@@ -735,13 +735,14 @@ h1 {
     position: absolute;
     font-size: 3em;
     text-align: center;
-    top: 100vh;
+    top: 107vh;
     width: 100vw;
     transform: rotate(0deg);
   }
 
   .mijnwerk {
     overflow-x: auto;
+    padding-top: 7vh;
   }
 
   .mijnwerk .imgdiv {
