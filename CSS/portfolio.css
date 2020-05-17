@@ -51,6 +51,20 @@ a {
   color: #8ec8b4;
 }
 
+.mijnwerk article {
+  width: 35vw;
+  height: 70vh;
+  border: 1em solid white;
+  flex-shrink: 0;
+}
+
+.imgbox {
+  background-image: url(../images/BackgroundCanvas.png);
+  background-size: 120%;
+  background-color: #cccccc;
+  height: 100%;
+}
+
 .imgdiv {
 	overflow: hidden;
   object-fit: cover;
@@ -143,11 +157,15 @@ h1 {
 
 .background {
   background-color: #8ec8b4;
+  height: 100vh;
 }
 
 .kim {
+  height: 100vh;
+  left: 0;
   width: 50vw;
-  /* object-fit: cover; */
+  bottom: 0;
+  object-fit: cover;
 }
 
 .mijnwerk {
