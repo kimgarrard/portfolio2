@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio Kim Garrard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/portfolio.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon2.png"/>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html"><img src="images/logo9.png" alt="" class="logo"></a>
+    </nav>
+
+    <div class="background2"></div>
+
+    <main>
+
+      <div id="realcontent">
+
+        <div class="test">
+          <div class="background">
+            <div class="">
+              <h2>Design = fijn!</h2>
+            </div>
+            <img class="kim" src="images/kim2.png" alt="">
+          </div>
+          <h1>PORTFOLIO</h1>
+        </div>
+
+
+        <div class="mijnwerk">
+
+          <article class="">
+            <h2 class="title1">Wie ben ik?</h2>
+            <p>Wie ben ik?</p>
+          </article>
+
+          </div>
+
+    <div id="fakecontent"></div>
+
+
+    </main>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script>
+
+        $(window).on('scroll', function() {
+          $("#realcontent").css("left", -$(window).scrollTop());
+        });
+
+    </script>
+</body>
+
+</html>
