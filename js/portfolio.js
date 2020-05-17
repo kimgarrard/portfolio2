@@ -2,27 +2,36 @@
 /*eslint-env browser*/
 /*eslint 'no-console':0*/
 
-var hover0 = document.querySelector(".hoverimg0");
-var hover1 = document.querySelector(".hoverimg1");
-var hover2 = document.querySelector(".hoverimg2");
-var hover3 = document.querySelector(".hoverimg3");
-var hover4 = document.querySelector(".hoverimg4");
-var hover5 = document.querySelector(".hoverimg5");
-var hover6 = document.querySelector(".hoverimg6");
-var hover7 = document.querySelector(".hoverimg7");
-var hover8 = document.querySelector(".hoverimg8");
+let hover0 = document.querySelector(".hoverimg0");
+let hover1 = document.querySelector(".hoverimg1");
+let hover2 = document.querySelector(".hoverimg2");
+let hover3 = document.querySelector(".hoverimg3");
+let hover4 = document.querySelector(".hoverimg4");
+let hover5 = document.querySelector(".hoverimg5");
+let hover6 = document.querySelector(".hoverimg6");
+let hover7 = document.querySelector(".hoverimg7");
+let hover8 = document.querySelector(".hoverimg8");
 
-var img0 = document.querySelector(".img0hover");
-var img1 = document.querySelector(".img1hover");
-var img2 = document.querySelector(".img2hover");
-var img3 = document.querySelector(".img3hover");
-var img4 = document.querySelector(".img4hover");
-var img5 = document.querySelector(".img5hover");
-var img6 = document.querySelector(".img6hover");
-var img7 = document.querySelector(".img7hover");
-var img8 = document.querySelector(".img8hover");
+let img0 = document.querySelector(".img0hover");
+let img1 = document.querySelector(".img1hover");
+let img2 = document.querySelector(".img2hover");
+let img3 = document.querySelector(".img3hover");
+let img4 = document.querySelector(".img4hover");
+let img5 = document.querySelector(".img5hover");
+let img6 = document.querySelector(".img6hover");
+let img7 = document.querySelector(".img7hover");
+let img8 = document.querySelector(".img8hover");
 
-// var hovertitle1 = document.querySelector(".title1");
+let button = document.querySelector(".button2");
+let kimgarrard = document.querySelector(".kimgarrard");
+
+button.addEventListener('mouseover', function() {
+  kimgarrard.classList.remove("hide");
+});
+
+button.addEventListener('mouseout', function() {
+  kimgarrard.classList.add("hide");
+});
 
 
 hover0.addEventListener('mouseover', function() {
