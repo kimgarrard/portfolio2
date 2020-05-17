@@ -84,7 +84,7 @@ a {
   transform: scale(1.1);
 }
 
-#realcontent {
+/* #realcontent {
   position: fixed;
   width: 500vw;
   height: 100vh;
@@ -93,7 +93,7 @@ a {
 
 #fakecontent {
   height: 340vw;
-}
+} */
 
 body,
 html {
@@ -700,15 +700,20 @@ h1 {
 /* mobile */
 @media (min-width: 20em) and (max-width: 47em) {
 
+  html {
+    overflow-x: hidden;
+  }
+
   body {
     width: 100vw;
     overflow-x: hidden;
   }
 
   #realcontent {
+    height: auto;
+    width: 100vw !important;
     position: relative;
-    display: block;
-    width: 100vw;
+    /* display: block; */
   }
 
   .background > div {
@@ -743,20 +748,33 @@ h1 {
     width: 100vw;
   }
 
-  .imgbox {
-    height: 70%;
-  }
+  /* .imgbox {
+    height: 90%;
+  } */
 
   .imgbox a img {
     display: none;
   }
 
   #fakecontent {
-    display: none;
+    display: none !important;
   }
 
   .mijnwerk article {
       width: 85vw;
   }
 
+}
+
+@media (min-width: 79em)  {
+  #realcontent {
+    position: fixed;
+    width: 500vw;
+    height: 100vh;
+    display: flex;
+  }
+
+  #fakecontent {
+    height: 340vw;
+  }
 }
