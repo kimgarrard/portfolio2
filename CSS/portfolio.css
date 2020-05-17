@@ -928,6 +928,18 @@ nav a {
     width: 50% !important;
   }
 
+  .overmij {
+    width: 100vw;
+  }
+
+  .overmijp {
+    margin-bottom: 0;
+  }
+
+  .overmij p {
+    margin-top: 2vh;
+}
+
 
 }
 
@@ -1113,7 +1125,11 @@ nav a {
 
   .imgrowshow .imgdiv {
     height: 20vh !important;
-}
+  }
+
+  .overmij {
+    width: 100vw;
+  }
 
 
 }
