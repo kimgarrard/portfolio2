@@ -186,10 +186,20 @@ h1 {
 
 .background a {
   padding: 1em 2em;
-  background-color: #e1f1eb;
-  border-radius: 0.5em;
+  background-color: #8ec8b4;
   color: black;
   font-family: "Avenir", Helvetica;
+  color: white;
+  text-transform: uppercase;
+  border: 0.2em solid white;
+  transition: all 0.4s ease 0s;
+}
+
+.background a:hover {
+color: #ffffff !important;
+background: #f6b93b;
+border-color: #f6b93b !important;
+transition: all 0.4s ease 0s;
 }
 
 .background h2 {
