@@ -840,6 +840,18 @@ h1 {
     height: 43vh;
   }
 
+  .imgdivww {
+    height: 40vh !important;
+  }
+
+  .imgrowww div {
+    height: 29vh !important;
+  }
+
+  .videodivww {
+    height: 29vh !important;
+  }
+
 
 }
 
