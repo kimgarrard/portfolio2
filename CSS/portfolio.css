@@ -7,6 +7,11 @@
 }
 
 @font-face {
+    font-family: 'DayPosterBlackNF';
+    src:  url('styles/DayPosterBlackNF.ttf') format('truetype');
+  }
+
+@font-face {
     font-family: "FuturaCM";
     src: url("../fonts/Futura.ttf") format("truetype");
 }
@@ -108,6 +113,14 @@ nav a {
     font-size: 1em;
     color: black;
 }
+
+/* .titel {
+  position: absolute;
+  z-index: 5 !important;
+  left: 30vw !important;
+  top: 40vh !important;
+  z-index: -2 !important;
+} */
 
 h1 {
   z-index: -2;
@@ -547,6 +560,14 @@ h1 {
   position: fixed;
   z-index: -2;
   background-size: cover;
+}
+
+.imgrownemo div {
+  height: 35vh !important;
+}
+
+.imgrownemo div img:hover {
+  transform: scale(1.15);
 }
 
 
