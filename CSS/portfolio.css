@@ -803,6 +803,7 @@ h1 {
 
   .imgandtext article {
     margin-top: 5vh;
+    width: 100% !important;
   }
 
   .imgrow {
@@ -833,7 +834,11 @@ h1 {
 
   #enjoin .imgandtext .imgrow {
     width: 100%;
-}
+  }
+
+  #enjoin .imgrow .imgdiv {
+    height: 43vh;
+  }
 
 
 }
