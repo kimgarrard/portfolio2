@@ -143,7 +143,7 @@ nav a {
   z-index: -2 !important;
 } */
 
-h1 {
+/* h1 {
   z-index: -2;
   margin: 0;
   transform: rotate(-90deg);
@@ -151,6 +151,24 @@ h1 {
   display: inline-block;
   letter-spacing: 0.1em;
   margin-top: 4vh;
+  font-family: "Avenir heavy", Helvetica;
+  color: #8ec8b4;
+} */
+
+.portfoliodiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  z-index: -2;
+  margin-left: -1.9vw !important;
+  font-size: 13vh;
+  writing-mode: vertical-rl;
+  margin: 0;
+  transform: scaleX(-1) scaleY(-1);
+  letter-spacing: 0.1em;
   font-family: "Avenir heavy", Helvetica;
   color: #8ec8b4;
 }
@@ -196,10 +214,10 @@ h1 {
 }
 
 .background a:hover {
-color: #ffffff !important;
-background: #f6b93b;
-border-color: #f6b93b !important;
-transition: all 0.4s ease 0s;
+  color: #ffffff !important;
+  background: #f6b93b;
+  border-color: #f6b93b !important;
+  transition: all 0.4s ease 0s;
 }
 
 .background h2 {
