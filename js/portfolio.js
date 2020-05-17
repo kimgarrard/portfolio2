@@ -13,14 +13,23 @@ let hover7 = document.querySelector(".hoverimg7");
 let hover8 = document.querySelector(".hoverimg8");
 
 let img0 = document.querySelector(".img0hover");
+let img0b = document.querySelector(".img0hoverb");
 let img1 = document.querySelector(".img1hover");
+let img1b = document.querySelector(".img1hoverb");
 let img2 = document.querySelector(".img2hover");
+let img2b = document.querySelector(".img2hoverb");
 let img3 = document.querySelector(".img3hover");
+let img3b = document.querySelector(".img3hoverb");
 let img4 = document.querySelector(".img4hover");
+let img4b = document.querySelector(".img4hoverb");
 let img5 = document.querySelector(".img5hover");
+let img5b = document.querySelector(".img5hoverb");
 let img6 = document.querySelector(".img6hover");
+let img6b = document.querySelector(".img6hoverb");
 let img7 = document.querySelector(".img7hover");
+let img7b = document.querySelector(".img7hoverb");
 let img8 = document.querySelector(".img8hover");
+let img8b = document.querySelector(".img8hoverb");
 
 let button = document.querySelector(".button2");
 let kimgarrard = document.querySelector(".kimgarrard");
@@ -35,100 +44,99 @@ button.addEventListener('mouseout', function() {
 
 
 hover0.addEventListener('mouseover', function() {
-  img0.src = "images/dinnerb.png";
-  img0.classList.add("hoverimg");
-  // hovertitle1.classList.add("hovertitle");
+  img0.classList.add("hide");
+  img0b.classList.remove("hide");
 });
 
 hover0.addEventListener('mouseout', function() {
-  img0.src = "images/dinner.png";
-  img0.classList.remove("hoverimg");
+  img0.classList.remove("hide");
+  img0b.classList.add("hide");
 });
 
 
 hover1.addEventListener('mouseover', function() {
-  img1.src = "images/enjoinb.png";
-  img1.classList.add("hoverimg");
+  img1.classList.add("hide");
+  img1b.classList.remove("hide");
 });
 
 hover1.addEventListener('mouseout', function() {
-  img1.src = "images/enjoin.png";
-  img1.classList.remove("hoverimg");
+  img1.classList.remove("hide");
+  img1b.classList.add("hide");
 });
 
 
 hover2.addEventListener('mouseover', function() {
-  img2.src = "images/artb.png";
-  img2.classList.add("hoverimg");
+  img2.classList.add("hide");
+  img2b.classList.remove("hide");
 });
 
 hover2.addEventListener('mouseout', function() {
-  img2.src = "images/art.png";
-  img2.classList.remove("hoverimg");
+  img2.classList.remove("hide");
+  img2b.classList.add("hide");
 });
 
 
 hover3.addEventListener('mouseover', function() {
-  img3.src = "images/etnischprofilerenb.png";
-  img3.classList.add("hoverimg");
+  img3.classList.add("hide");
+  img3b.classList.remove("hide");
 });
 
 hover3.addEventListener('mouseout', function() {
-  img3.src = "images/etnischprofileren.png";
-  img3.classList.remove("hoverimg");
+  img3.classList.remove("hide");
+  img3b.classList.add("hide");
 });
 
 
 hover4.addEventListener('mouseover', function() {
-  img4.src = "images/schoenenb.png";
-  img4.classList.add("hoverimg");
+  img4.classList.add("hide");
+  img4b.classList.remove("hide");
 });
 
 hover4.addEventListener('mouseout', function() {
-  img4.src = "images/schoenen.png";
-  img4.classList.remove("hoverimg");
+  img4.classList.remove("hide");
+  img4b.classList.add("hide");
 });
 
 
 hover5.addEventListener('mouseover', function() {
-  img5.src = "images/wittewebsiteb.png";
-  img5.classList.add("hoverimg");
+  img5.classList.add("hide");
+  img5b.classList.remove("hide");
 });
 
 hover5.addEventListener('mouseout', function() {
-  img5.src = "images/wittewebsite.png";
-  img5.classList.remove("hoverimg");
+  img5.classList.remove("hide");
+  img5b.classList.add("hide");
 });
 
 
 hover6.addEventListener('mouseover', function() {
-  img6.src = "images/extrab.png";
-  img6.classList.add("hoverimg");
+  img6.classList.add("hide");
+  img6b.classList.remove("hide");
 });
 
 hover6.addEventListener('mouseout', function() {
-  img6.src = "images/extra.png";
-  img6.classList.remove("hoverimg");
+  img6.classList.remove("hide");
+  img6b.classList.add("hide");
 });
 
 
 hover7.addEventListener('mouseover', function() {
-  img7.src = "images/nemob.png";
-  img7.classList.add("hoverimg");
+  img7.classList.add("hide");
+  img7b.classList.remove("hide");
 });
 
 hover7.addEventListener('mouseout', function() {
-  img7.src = "images/nemo.png";
-  img7.classList.remove("hoverimg");
+  img7.classList.remove("hide");
+  img7b.classList.add("hide");
 });
 
 
 hover8.addEventListener('mouseover', function() {
-  img8.src = "images/orcab.png";
-  img8.classList.add("hoverimg");
+  img8.classList.add("hide");
+  img8b.classList.remove("hide");
 });
 
 hover8.addEventListener('mouseout', function() {
-  img8.src = "images/orca.png";
-  img8.classList.remove("hoverimg");
+  img8.classList.remove("hide");
+  img8b.classList.add("hide");
 });
