@@ -981,12 +981,12 @@ h1 {
     width: 50% !important;
   }
 
-  #enjoin .imgandtext .imgrow {
+  /* #enjoin .imgandtext .imgrow {
     width: 100%;
-  }
+  } */
 
   #enjoin .imgrow .imgdiv {
-    height: 43vh;
+    height: 35vh;
   }
 
   .imgdivww {
@@ -1008,6 +1008,41 @@ h1 {
 
   .imgrownemo div {
     width: 50% !important;
+  }
+
+  #enjoin .imgandtext article {
+    width: 35% !important;
+  }
+
+  .imgdivenjoin {
+    width: 60% !important;
+    height: 67vh !important;
+  }
+
+  .imgrowetnisch {
+    display: block;
+  }
+
+  .imgrowetnisch div {
+    width: 100% !important;
+    height: 36vh !important;
+  }
+
+  .imgrowschoenen div {
+    width: 35% !important;
+    height: 18vh !important;
+  }
+
+  .articleschoenen {
+    width: 31vw !important;
+  }
+
+  .imgdivschoenen {
+    height: 12vh !important;
+  }
+
+  .imgandtextschoenen .videodiv {
+    height: 30vh !important;
   }
 
 
