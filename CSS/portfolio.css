@@ -711,8 +711,28 @@ h1 {
     width: 100vw;
   }
 
+  .background > div {
+    width: 90vw;
+    top: 10vh;
+    left: 5vw;
+  }
+
+  .background > div div {
+    width: 100%;
+    margin-top: 1vh;
+  }
+
+  .background h2 {
+    font-size: 2em;
+  }
+
   h1 {
-    display: none;
+    position: absolute;
+    font-size: 3em;
+    text-align: center;
+    top: 100vh;
+    width: 100vw;
+    transform: rotate(0deg);
   }
 
   .mijnwerk {
