@@ -684,6 +684,18 @@ nav a {
   transform: scale(1.15);
 }
 
+.casesdiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+
+
 
 
 
