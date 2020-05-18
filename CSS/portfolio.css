@@ -116,10 +116,8 @@ nav {
 
 .logo {
     background-color: rgba(255,255,255,0.5);
-    width: 8em;
+    width: 7em;
     mix-blend-mode: darken;
-    /* position: absolute; */
-    /* margin: 0.5em; */
 }
 
 nav a {
@@ -799,6 +797,10 @@ nav a {
     width: 100vw !important;
     position: relative;
     /* display: block; */
+  }
+
+  .logo {
+    width: 6em;
   }
 
   .background > div {
