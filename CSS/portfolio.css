@@ -606,7 +606,7 @@ nav a {
 }
 
 #wittewebsite .firstfotodiv {
-  background: url(../images/wittewebsitec.jpg) no-repeat center 60%;
+  background: url(../images/wittewebsited.png) no-repeat center 50%;
   height: 75vh;
   width: 100vw;
   overflow: hidden;
@@ -753,7 +753,7 @@ nav a {
   }
 
   .mijnwerk article:nth-of-type(6) > div {
-    background: url(../images/wittewebsiteb.png) no-repeat center center;
+    background: url(../images/wittewebsited.png) no-repeat center center;
     background-size: cover;
   }
 
