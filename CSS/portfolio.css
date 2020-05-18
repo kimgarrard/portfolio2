@@ -83,9 +83,9 @@ a {
 	transition: transform 500ms ease;
 }
 
-.imgdiv img:hover {
+/* .imgdiv img:hover {
   transform: scale(1.1);
-}
+} */
 
 /* #realcontent {
   position: fixed;
@@ -699,10 +699,6 @@ nav a {
 
 
 
-@media (max-width: 79em) and (min-width: 48em)
-.droomdiv {
-    height: 110em;
-}
 
 
 /* RESPONSIVE */
@@ -960,7 +956,11 @@ nav a {
 
   .overmij p {
     margin-top: 2vh;
-}
+  }
+
+  .imgrownemo div, .imgrownemo2 div {
+    height: 26vh !important;
+  }
 
 
 }
@@ -1163,6 +1163,11 @@ nav a {
 }
 
 @media (min-width: 79em)  {
+
+  .imgdiv img:hover {
+    transform: scale(1.1);
+  }
+
   #realcontent {
     position: fixed;
     width: 500vw;
