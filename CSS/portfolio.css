@@ -51,7 +51,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #8ec8b4;
+  color: #7CCEB3;
 }
 
 .mijnwerk article {
@@ -142,7 +142,7 @@ nav a {
   transform: scaleX(-1) scaleY(-1);
   letter-spacing: 0.1em;
   font-family: "Avenir heavy", Helvetica;
-  color: #8ec8b4;
+  color: #7CCEB3;
 } */
 
 .test {
@@ -153,7 +153,8 @@ nav a {
 }
 
 .background {
-  background-color: #8ec8b4;
+  background-image: -webkit-linear-gradient(350deg, #7CCEB3 80%, rgba(0, 0, 0, 0) 0%);
+  background-color: white;
   height: 100vh;
 }
 
@@ -166,29 +167,34 @@ nav a {
 
 .background > div div {
   width: 20vw;
-  margin-top: 2vh;
+  margin-top: 6vh;
 }
 
 .background > div div p {
   margin-bottom: 4vh;
   color: #696969;
+  color: white;
+}
+
+.meerweten {
+  margin-top: 6vh;
 }
 
 .background a {
   position: relative;
   z-index: 2;
   padding: 1em 2em;
-  background-color: #8ec8b4;
+  background-color: #7CCEB3;
   color: black;
   font-family: "Avenir", Helvetica;
   color: white;
   text-transform: uppercase;
-  border: 0.2em solid white;
+  border: 2.5px solid white;
   transition: all 0.4s ease 0s;
 }
 
 .background a:hover  {
-  color: #8ec8b4 !important;
+  color: #7CCEB3 !important;
   background: white;
   border-color: white !important;
   transition: all 0.4s ease 0s;
@@ -306,19 +312,23 @@ nav a {
   margin-top: 5vh;
   padding: 1em 2em;
   background-color: white;
-  color: #8ec8b4;
+  color: #7CCEB3;
   font-family: "Avenir", Helvetica;
   /* color: white; */
   text-transform: uppercase;
-  border: 0.2em solid #8ec8b4;
+  border: 2.5px solid #7CCEB3;
   transition: all 0.4s ease 0s;
 }
 
 .mail:hover  {
   color: #ffffff !important;
-  background: #8ec8b4;
-  border-color: #8ec8b4 !important;
+  background: #7CCEB3;
+  border-color: #7CCEB3 !important;
   transition: all 0.4s ease 0s;
+}
+
+.call {
+  margin-left: 1vh;
 }
 
 .hide {
@@ -377,7 +387,7 @@ nav a {
 .projectinfo div p:nth-of-type(1) {
   font-size: 1.1em;
   font-weight: bold;
-  color: #8ec8b4;
+  color: #7CCEB3;
 }
 
 .introdiv {
@@ -402,21 +412,21 @@ nav a {
 }
 
 .button {
-  background-color: #8ec8b4;
+  background-color: #7CCEB3;
   padding: 1em 1.5em;
   background-color: white;
-  color: #8ec8b4;
+  color: #7CCEB3;
   text-decoration: none;
   font-family: "Avenir", Helvetica;
   text-transform: uppercase;
-  border: 0.2em solid #8ec8b4;
+  border: 0.2em solid #7CCEB3;
   transition: all 0.4s ease 0s;
 }
 
 .button:hover {
   color: #ffffff !important;
-  background: #8ec8b4;
-  border-color: #8ec8b4 !important;
+  background: #7CCEB3;
+  border-color: #7CCEB3 !important;
   transition: all 0.4s ease 0s;
 }
 
@@ -736,7 +746,7 @@ nav a {
     /* transform: scaleX(-1) scaleY(-1); */
     letter-spacing: 0.1em;
     font-family: "Avenir heavy", Helvetica;
-    color: #8ec8b4;
+    color: #7CCEB3;
   }
 
   .mijnwerk article:nth-of-type(1) > div {
@@ -809,6 +819,10 @@ nav a {
 
   .logo {
     width: 6em;
+  }
+
+  .background {
+    background-color: #7CCEB3;
   }
 
   .background > div {
@@ -970,6 +984,10 @@ nav a {
     margin-top: 2vh;
   }
 
+  .call {
+    margin-left: 0;
+  }
+
   .imgrownemo div, .imgrownemo2 div {
     height: 26vh !important;
   }
@@ -996,6 +1014,10 @@ nav a {
     width: 100vw !important;
     position: relative;
     /* display: block; */
+  }
+
+  .background {
+    background-image: -webkit-linear-gradient(350deg, #7CCEB3 70%, rgba(0, 0, 0, 0) 0%);
   }
 
   .background > div {
@@ -1162,9 +1184,9 @@ nav a {
   }
 
   .mijnwerk article {
-    padding-left: 5vw;
-    padding-right: 5vw;
-    width: 100vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    height: 60vh;
   }
 
   .overmij {
@@ -1175,6 +1197,13 @@ nav a {
 }
 
 @media (min-width: 79em)  {
+
+  /* .background {
+    background-image: -webkit-linear-gradient(350deg, #7CCEB3 80%, rgba(0, 0, 0, 0) 0%);
+    background-color: white;
+    height: 100vh;
+    width: 55vw;
+  } */
 
   .imgdiv img:hover {
     transform: scale(1.1);
@@ -1191,16 +1220,22 @@ nav a {
     height: 340vw;
   }
 
+  .background {
+    width: 60vw;
+  }
+
   h1 {
-    z-index: -2;
-    margin-left: -1.9vw !important;
-    font-size: 13vh;
+    z-index: 2;
+    margin-left: -10vw !important;
+    font-size: 12vh;
     writing-mode: vertical-rl;
     margin: 0;
-    transform: scaleX(-1) scaleY(-1);
+    transform: scaleX(-1) scaleY(-1) rotate(10deg);
     letter-spacing: 0.1em;
     font-family: "Avenir heavy", Helvetica;
-    color: #8ec8b4;
+    color: #7CCEB3;
+    background-color: white;
+    padding: 5em 0em;
   }
 
   .mijnwerk section {
