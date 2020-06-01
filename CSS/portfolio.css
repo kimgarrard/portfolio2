@@ -991,8 +991,18 @@ nav a {
   .imgrownemo div, .imgrownemo2 div {
     height: 26vh !important;
   }
+}
 
+/* mobile */
+@media (min-width: 20em) and (max-width: 47em) and (orientation: landscape) {
+  .mijnwerk > article {
+    width: 70% !important;
+    height: 80vh !important;
+  }
 
+  .mijnwerk .imgdiv {
+    border-bottom: 6em solid white !important;
+  }
 }
 
 
@@ -1226,7 +1236,7 @@ nav a {
 
   h1 {
     z-index: 2;
-    margin-left: -10vw !important;
+    margin-left: -10.5vw !important;
     font-size: 12vh;
     writing-mode: vertical-rl;
     margin: 0;
@@ -1244,5 +1254,9 @@ nav a {
 
   .imgdiv {
     overflow: hidden;
+  }
+
+  .overmij {
+    padding-left: 2.5vw;
   }
 }
